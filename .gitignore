@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+botenv/
+.conda/
+node_modules/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+test_executed.ipynb
+
+# Data and Models (Exclude massive files from git tracking)
+data/raw/*.json
+models/*.joblib
+models/*.pkl
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temporary reports
+*.log
+outputs/plots/
+outputs/shap/
+outputs/reports/
